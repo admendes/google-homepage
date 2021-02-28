@@ -16,7 +16,8 @@ li a {
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
-    font-size:14px;
+    font-family: Arial,sans-serif;
+    font-size: 13px;
 }
 
 li a:hover {
@@ -30,20 +31,59 @@ li a:hover {
 }
 
 #googleImg {
-    margin-top:213px;
-    margin-bottom:30px;
+    margin-top: 213px;
+    margin-bottom: 30px;
+}
+
+#inputBox{
+    margin: 0 auto;
+    width: 585px;
+    border-radius: 30px;
+    border: 1px solid #dcdcdc;
+}
+
+#inputBox:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+#inputBox:focus-within{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.inputText{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 500px;
 }
 
 #buttons {
     width: 100%;
-    height: 400px;
+    height: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
   
 button {
-    height: 25x;
-    width: 155px;
+    background-color: #f7efef;
+    border: none;
+    color:#5d6268;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    padding: 9px 19px;
+    margin:5px;
+    border-radius:4px;
+    outline:none;
 }
-  
+
+button:hover {
+    border: 1px solid #c8c8c8;
+    padding: 8px 18px;
+    color:#5d6268;
+}
+
+button:focus {
+    border:1px solid #3d7ae4;
+    padding: 8px 18px; 
+}
