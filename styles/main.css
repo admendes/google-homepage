@@ -8,20 +8,25 @@ ul {
 li {
     display: inline;
     float: right;
+    margin-right: 30px;
 }
 
 li a {
-    color: #000;
+    color: rgb(95, 92, 92);
     display: block;
     text-align: center;
-    padding: 18px 10px;
+    padding: 18px 0px;
     text-decoration: none;
     font-family: Arial,sans-serif;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 li a:hover {
     text-decoration: underline;
+}
+
+.left {
+    float: left !important;
 }
 
 .apps {
@@ -53,22 +58,22 @@ li a:hover {
     margin-bottom: 30px;
 }
 
-#inputBox{
+#inputBox {
     margin: 0 auto;
     width: 585px;
     border-radius: 30px;
     border: 1px solid #dcdcdc;
 }
 
-#inputBox:hover{
+#inputBox:hover {
     box-shadow: 1px 1px 8px 1px #dcdcdc;
 }
 
-#inputBox:focus-within{
+#inputBox:focus-within {
     box-shadow: 1px 1px 8px 1px #dcdcdc;
 }
 
-.inputText{
+.inputText {
     border: none;
     outline: none;
     height: 40px;
@@ -81,6 +86,15 @@ li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#footer {
+    background-color: #f7efef;
+    border-top: 1px solid #c8c8c8;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
   
 button {
